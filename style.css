@@ -1,0 +1,63 @@
+body {
+  background-color: lightgreen;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  display: flex;
+  align-items: top;
+}
+
+.description {
+  width: 50%;
+  font-size: 2rem;
+}
+
+.description {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.lollipop {
+  background-image: url("rect4.svg");
+  color: #35B7E7;
+  background-position: center, top;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  width: 200px;
+  background-repeat: no-repeat;
+}
+
+svg {
+  fill: currentColor;
+}
+
+.number {
+  font-size: 4rem;
+  color: black;
+}
+
+.circle {
+  background-color: #35B7E7;
+  width: 100px;
+  height: 100px;
+  border-radius: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step:last-of-type .lollipop {
+  background-image: none;
+}
